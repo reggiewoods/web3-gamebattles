@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/31802ac240.js" crossorigin="anonymous"></script>
+    <title>Echo Universe</title>
+</head>
+<body class="bg-secondary">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+                <div class="container">
+        
+                    <a href="index.html" class="navbar-brand">Echo Universe</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a href="wager.html" class="nav-link">Wager Matches</a>
+                        </li>
+                            <li class="nav-item">
+                            <a href="fantasy.html" class="nav-link">Fantasy League</a>
+                            </li>                
+                                <li class="nav-item">
+                                <a href="#sportsbook" class="nav-link">Sportsbook</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#money" class="nav-link">Money League</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="shop.html" class="nav-link">Shop</a>
+                                  </li>     
+                                <li class="nav-item">
+                                <a href="#" class="nav-link" onclick="GetAccount()">Log In</a>
+                                </li>    
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- SUB NAV -->
+            <div class="subnav bg-dark">
+                <ul class="subnav-nav">
+                    <li class="subnav-item">
+                        <a href="useractivity.html" class="profile-nav-link">Activity</a>
+                    </li>
+                    <li class="subnav-item">
+                        <a href="myteams.html" class="profile-nav-link">Teams</a>
+                    </li>
+                    <li class="subnav-item">
+                      <a href="myprofile.html" class="profile-nav-link" style="color: #0a58ca;">Profile</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+<!-- NOTIFICATION BANNER -->
+<div class="notifications">
+    <h4 class="info-notif">Accept match from 00Jaywalker00 ?</h1>
+    <button class="notif-button"><i class="bi bi-x-square reject-notif fa-2x"></i></button>
+    <button class="notif-button"><i class="bi bi-check-square-fill accept-notif fa-2x"></i></button>
+  </div>
+
+                   
+<section class="profile-page">
+  <div class="player-name-tab">
+    <h2 class="player-name">User_91028562783</h2>
+    <h4 class="player-rank">Rank: #112</h4>
+  </div>
+  <div class="player-region-rank">
+    <h6>America East</h6>
+    <h4>16-0</h4>
+  </div>
+  <div class="profile-head" id="card">
+    <img src="./img/vee.png" class="player-img"/>
+  <div class="awards">
+   <h1>Player's awards will be shown here...</h1>
+  </div>
+  <!-- TIME ZONE SELECTOR -->
+  
+  <div class="adjust-buttons">
+    <button class="profile-button btn-lg">Change Username</button>
+    <button class="profile-button btn-lg" title="Connect this profile to a different wallet">Change Authority</button>
+    <select class="time-zone-selector">
+      <option timeZoneId="3" gmtAdjustment="GMT-10:00" useDaylightTime="0" value="-10">(GMT-10:00) Hawaii</option>
+      <option timeZoneId="4" gmtAdjustment="GMT-09:00" useDaylightTime="1" value="-9">(GMT-09:00) Alaska</option>
+      <option timeZoneId="5" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
+      <option timeZoneId="9" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
+      <option timeZoneId="11" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Central Time (US & Canada)</option>
+      <option timeZoneId="15" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Eastern Time (US & Canada)</option>
+      <option timeZoneId="17" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
+    </select>		
+
+  <div class="socials">
+      <button type="button" class="btn btn-secondary twitch">
+        <i class="bi bi-twitch fa-2x"></i>
+      </button>
+      <button type="button" class="btn btn-secondary youtube">
+        <i class="bi bi-youtube fa-2x"></i>
+        <button type="button" class="btn btn-secondary discord">
+          <i class="bi bi-discord fa-2x"></i>
+        </button>
+      </button>
+      <button type="button" class="btn btn-secondary twitter">
+        <i class="bi bi-twitter fa-2x"></i>
+      </button>
+
+</div>
+</div>
+</div>
+
+<div class="profile-card-footer">
+  <h6 class="member-since">Member Since: January 2022</h6>
+    <div class="solana-balance">
+ 
+      <img src="./img/solana32px.png" class="solana"alt="">
+      <h3 class="total-earnings">1.2004 </h3>
+    </div>
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+ 
+
+
+
+
+
+<!-- COPY TO CLIPBOARD BUTTON SCRIPT -->
+
+<script>
+    function GetValue()
+    {
+        var myarray= new Array("item1","item2","item3");
+        var random = myarray[Math.floor(Math.random() * myarray.length)];
+        //alert(random);
+        document.getElementById("message").innerHTML=random;
+    }
+    
+    function copyToClipboard(elementId) {
+    
+    
+      var aux = document.createElement("input");
+      aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+      document.body.appendChild(aux);
+      aux.select();
+      document.execCommand("copy");
+    
+      document.body.removeChild(aux);
+    
+    }
+    </script>
+</div>
+</div>
+</div>
+
+
+
+        <!-- FOOTER -->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; 2022 Echo Universe</p>
+                <a href="" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
+        </footer>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        </body>
+        </html>

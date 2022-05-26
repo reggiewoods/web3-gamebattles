@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/31802ac240.js" crossorigin="anonymous"></script>
+    <title>Echo Universe</title>
+</head>
+<body class="bg-secondary">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+                <div class="container">
+        
+                    <a href="index.html" class="navbar-brand">Echo Universe</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a href="wager.html" class="nav-link">Wager Matches</a>
+                        </li>
+                            <li class="nav-item">
+                            <a href="fantasy.html" class="nav-link">Fantasy League</a>
+                            </li>                
+                                <li class="nav-item">
+                                <a href="#sportsbook" class="nav-link">Sportsbook</a>
+                                </li>
+                                <li class="nav-item">
+                                <a href="#money" class="nav-link">Money League</a>
+                                </li>    
+                                <li class="nav-item">
+                                <a href="#" class="nav-link" onclick="GetAccount()">Log In</a>
+                                </li>    
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- SUB NAV -->
+            <div class="subnav bg-dark">
+                <ul class="subnav-nav">
+                    <li class="subnav-item">
+                        <a href="useractivity.html" class="profile-nav-link">Activity</a>
+                    </li>
+                    <li class="subnav-item">
+                        <a href="#MyTeams" class="profile-nav-link" style="color: #0a58ca;">Teams</a>
+                    </li>
+                    <li class="subnav-item">
+                        <a href="myprofile.html" class="profile-nav-link">Profile</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CREATE NEW MATCH -->
+            <button class="create-a-team btn-lg btn-primary" id="#create-a-team" onclick="createateam()">Create New Team</button>
+
+
+
+
+
+
+<!-- FIRST NEW TEAM -->
+
+<div class="accordion" id="team">
+    <div class="accordion-item">
+        <h2 class="accordian-header" id="heading-2">
+            <button class="accordian-button" type="button" data-bs-toggle="collapse" data-bs-target="#team-2" aria-expanded="true" aria-controls="team-2">
+                <h2>Name_Not_Here</h2>
+                <h2>16-0</h2>
+            </button>
+        </h2>
+
+<!-- ACCORDIAN INFO -->
+<div id="team-2" class="accordian-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#teams">
+<div class="team-card" id="card-2">
+    <div class="team-card-head" id="header-2">
+        <img src="./img/991.webp" class="team-img"alt="">
+        <ul class="info-ul">
+            <li class="info-li">America East</li>
+            <li class="info-li">Rank: #53</li>
+            <li class="info-li">Total Earnings: 7.12</li>
+        </ul>
+    </div>
+    <div class="team-player-list">
+        <div class="player-strip">
+        <img class="strip-img" src="./img/220 kidsera.png"  alt="">
+            Jaywalker
+            <a href="#areyousure?" class="fa-solid fa-square-xmark remove-player"></a>
+        </div>
+        <div class="player-strip">
+            <img class="strip-img" src="./img/220 kidsera.png"  alt="">
+            <h2 class="player-name">Game-</h2>
+            <a href="#areyousure?" class="fa-solid fa-square-xmark remove-player"></a>
+            
+            
+        </div>
+        <div class="player-strip">Kungg</div>
+        <div class="player-strip">Ryann-</div>
+        <div class="player-strip">DashXL</div>
+        <div class="player-strip">AndyW</div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- END -->
+            <!-- TEAM ACCORDIAN  -->
+
+
+            <div class="accordion" id="teams">
+                <div class="accordion-item">
+                    <h2 class="accordian-header" id="heading-1">
+                        <button class="accordian-button" type="button" data-bs-toggle="collapse" data-bs-target="#team-1" aria-expanded="true" aria-controls="team-1">
+                            Ignite VR
+                        </button>
+                    </h2>
+                    
+<!-- TEAM CARD -->
+<div id="team-1" class="accordian-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#teams">
+<div class="team-card" id="card">
+  <img src="./img/vee.png"/>
+
+  <div class="container-md team-info">
+    <ul class="info-ul">  
+    <li class="info-li">
+          <h6>America West</h6>
+    </li>
+      <li class="info-li">
+        <h6>Division</h6>
+      </li>
+      <li class="info-li">
+        <h6>Wins:<br>7</span></h6>
+      </li>
+      <li class="info-li">
+        <h6>Losses:<br>0</span></h6>
+      </li>
+      <li class="info-li">
+        <h6>Balance:<br>1.2 Sol</span></h6>
+      </li>
+    </ul>
+    </div>
+
+
+    <!-- X BUTTONS -->
+        <ul class="roster-ul">
+            <a href="#areyousure?" class="fa-solid fa-square-xmark fa-2xl remove-player"></a>
+            <li class="captain player-title">Jay <i class="fa-solid fa-crown"></i></li>
+            
+            <a href="#areyousure?" class="fa-solid fa-square-xmark fa-2xl remove-player"></a>
+ 
+            <li class="co-captain player-title">Venom</li>
+            <a href="#areyousure?" class="fa-solid fa-square-xmark fa-2xl remove-player"></a>
+
+            <li class="player-title">Meatballer</li>
+            <a href="#areyousure?" class="fa-solid fa-square-xmark fa-2xl remove-player"></a>
+
+            <li class="player-title">Clex</li>
+            <a href="#areyousure?" class="fa-solid fa-square-xmark fa-2xl remove-player"></a>
+
+            <li class="player-title">DWUP</li>
+            <a href="#areyousure?" class="fa-solid fa-square-xmark fa-2xl remove-player"></a>
+
+            <li class="player-title">Game-</li>
+ 
+        </ul>
+        <!-- WALLET ACTIONS -->
+<div class="wallet-actions">
+    <h6 id="team-wallet"class="team-wallet">Team Wallet: <span class="team-wallet-address copy" id="team-wallet-address">6W58RxJtiyGw4csNGUyfsjM9DhQCJrMTMeL1A4n9MEfd</h6>
+        <button class="btn-secondary"onclick="copyToClipboard('team-wallet-address')"><i class="fa-solid fa-clone copybutton"></i><h6>Wallet Address</h6></button>
+    <button class="btn btn-success btn-lg deposit" data-bs-toggle="modal" data-bs-target="#tickets" >Deposit</button>
+    <button class="btn btn-primary btn-lg withdrawal" data-bs-toggle="modal" data-bs-target="#tickets" >Withdrawal</button>
+    <button class="btn btn-light btn-lg add-player" data-bs-toggle="modal" data-bs-target="#tickets" >Add Player</button>
+    <button class="btn btn-light btn-lg captain-swap" data-bs-toggle="modal" data-bs-target="#tickets">Captain</button>
+    <button class="btn btn-light btn-lg create-match" data-bs-toggle="modal" data-bs-target="#tickets">Wager</button>
+</div>
+
+
+<!-- COPY TO CLIPBOARD BUTTON SCRIPT -->
+
+<script>
+    function GetValue()
+    {
+        var myarray= new Array("item1","item2","item3");
+        var random = myarray[Math.floor(Math.random() * myarray.length)];
+        //alert(random);
+        document.getElementById("message").innerHTML=random;
+    }
+    
+    function copyToClipboard(elementId) {
+    
+    
+      var aux = document.createElement("input");
+      aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+      document.body.appendChild(aux);
+      aux.select();
+      document.execCommand("copy");
+    
+      document.body.removeChild(aux);
+    
+    }
+    </script>
+</div>
+</div>
+</div>
+
+
+
+
+                    <!-- FOOTER -->
+<footer class="p-5 bg-dark text-white text-center position-absolute fixed-bottom">
+    <div class="container">
+        <p class="lead">Copyright &copy; 2022 Echo Universe</p>
+        <a href="" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

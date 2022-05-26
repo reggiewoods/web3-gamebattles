@@ -1,0 +1,1090 @@
+
+
+* {
+    padding: 0%;
+    border:0ch;
+    box-sizing: border-box;
+}
+
+h6 {
+font-size: 14px;
+margin: 0%;
+}
+
+h4 {
+  margin: 0% 0%;
+}
+
+h2 {
+  margin: 0%;
+}
+
+
+
+.collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+
+
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 6%;
+  right: 3%;
+}
+
+
+
+
+
+
+
+
+/* Second Nav Bar */
+/* Second Nav Bar */
+/* Second Nav Bar */
+/* Second Nav Bar */
+
+
+.subnav-nav {
+  padding: 0%;
+}
+
+
+.subnav {
+
+    display: grid;
+    justify-content: center;
+    padding: 6px 0px;
+
+
+
+}
+
+.subnav ul {
+
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-bottom: 0%;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.profile-nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* USER ACTIVITY */
+/* USER ACTIVITY */
+/* USER ACTIVITY */
+/* USER ACTIVITY */
+
+
+
+
+.info-badge {
+
+
+}
+
+.info-content {
+  border-style: solid;
+  border-width: 4px;
+  padding: 10px;
+  border-radius: 24px;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: bisque;
+  box-shadow: 8px 8px #000;
+  gap: 5px;
+}
+
+
+
+
+/* WAGER MATCHES */
+/* WAGER MATCHES */
+/* WAGER MATCHES */
+/* WAGER MATCHES */
+
+
+
+
+
+
+.create-match {
+  align-self: center;
+  width: 30vw;
+  height: 42px;
+  padding: 0 0;
+  right: 50%;
+  margin: 16px 0px 16px 0;
+}
+
+
+.wager-match {
+  height: 700px;
+  background-color: #444;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.wm-box img {
+  height: 125px;
+  width: 125px;
+  border-radius: 0.3em;
+}
+
+.wm-box h6 {
+  overflow: hidden;
+}
+.wager-button {
+  height: 50px;
+  width: 40vw;
+  border-radius: 2px;
+
+  float: right;
+  align-self: center;
+}
+
+.match-info {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2196f3;
+  margin: 4px 100px;
+  border-radius: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: #000 solid 5px;
+}
+
+.team-record {
+
+  position: relative;
+
+  color: #fff;
+  align-self: flex-start;
+  padding-left: 24px;
+  transform: translateY(40px);
+}
+.expires-in {
+margin: 0 0 0 0;
+}
+
+.match-type {
+margin: 0 0 0 0;
+}
+.match-length {
+  margin: 0 0 0 0;
+}
+
+.team-name {
+  font-weight: bolder;
+  margin-top: 4px;
+
+}
+
+.wager-seperator {
+height: 16px;
+}
+
+
+/*  PROFILE PAGE */
+/*  PROFILE PAGE */
+/*  PROFILE PAGE */
+
+
+
+.profile-page {
+  margin: 24px;
+  margin-top: 12px;
+  background-color: #e0c88e;
+  border:#000 solid 5px;
+  border-radius: 24px;
+  color: black;
+}
+
+
+
+.notifications {
+
+  margin: 12px 10px;
+display:flex;
+background-color:rgba(193, 81, 254, 0.2);
+border:rgb(45, 0, 69) solid;
+border-radius: 24px;
+align-items: center;
+padding: 10px 10px 10px 10px;
+}
+
+.info-notif {
+margin-right: auto;
+}
+
+.notif-button {
+  background-color: rgba(0, 0, 0, 0) ;
+  margin-left: 8px;
+
+}
+
+.player-name-tab {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 56px;
+  color: black;
+}
+
+
+.profile-head {
+  background-color: #fff;
+  border-bottom: #000 solid 6px;
+  border-top: #000 solid 6px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.awards {
+width: 80%;
+padding: 8px;
+margin: 0%;
+overflow: hidden;
+height
+}
+
+
+.head-button {
+  color: #2196f3;
+}
+
+.player-img {
+  width: 100%;
+  border-bottom: #000 solid 5px;
+}
+
+.player-info {
+ position: relative;
+ background-color: #c5c5c5;
+
+
+}
+
+.player-region-rank {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding-bottom: 12px;
+  height: 36px;
+}
+
+.player-name {
+  margin-left: 10px;
+  margin-bottom: 0%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: black;
+  
+}
+
+.player-rank {
+
+  margin-left: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.user-data {
+  color: #000;
+}
+
+
+.user-info {
+  background-color:#fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+}
+.time-zone-selector {
+  width: fit-content;
+  height: 46px;
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  background: rgb(239, 239, 239);
+    margin: 10px;
+}
+
+.socials .btn {  
+  padding: 0px 10%;
+}
+.adjust-buttons {
+  width: 100%;
+}
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  width: 90%;
+  gap: 2px;
+  margin: 6px;
+  flex-wrap: wrap;
+}
+
+.adjust-buttons {
+  align-self: flex-end;
+}
+
+.profile-card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.member-since {
+  align-self: center;
+  margin: 12px;
+}
+
+.solana-balance {
+  display: inline-flex;
+  margin: 12px;
+  
+}
+.solana {
+  height: 32px;
+  padding: 0px;
+  margin-right: 6px;
+  align-self: center;
+}
+.total-earnings {
+  margin: 0%;
+  align-self: center;
+}
+
+.btn-lg:hover {
+background-color: #87b4d8;
+}
+
+
+
+
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+/* SHOP */
+
+.shop {
+  background-color: #2196f3;
+  height: 100vh;
+}
+
+.shop-header {
+  background-color: #23c186;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 5%;
+
+}
+
+.shop-content{
+display: flex;
+background-color: #c5c5c5;
+margin-left: 5%;
+margin-right: 5%;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.shop-item {
+border: #000 solid 3px;
+border-radius: 24px;
+margin-left: 1%;
+width: 20vw;
+margin: 1vh 1vh 1vh 1vh;
+
+}
+.item-img {
+  display: flex;
+  justify-content: center;
+  margin: 0.5vh;
+}
+.item-img img {
+width: 18vw;
+border-radius: 24px;
+
+
+
+}
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  align-items: flex-end;
+
+}
+.item-price {
+  display: inline-flex;
+  margin: 12px 12px 12px 0px;
+}
+.shop-solana {
+margin-bottom: 12px;
+height: 32px;
+
+}
+.player-name {
+  margin: 12px;
+
+}
+
+
+
+
+
+
+
+
+footer {
+  bottom: 0%;
+}
+
+
+
+/* MY TEAMS */
+/* MY TEAMS */
+/* MY TEAMS */
+
+
+
+
+.create-a-team {
+  width: 100%;
+  padding: 12px;
+}
+
+.myteams {
+  background-color: #224C36;
+}
+
+.team-grid {
+  background-color: #29be71;
+  display: grid;
+  grid-template-rows: 1fr;
+  margin: 4% 10%;
+  background-color: rgb(75, 75, 75);
+  border-bottom: #000000;
+  
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: 8% 60% 12% 20%;
+}
+
+.fa-play {
+  justify-self: center;
+  align-self: center;
+}
+
+.team-ratio {
+  justify-self: center;
+}
+.accordian-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: max-content;
+  padding: 20px;
+}
+.accordian-body-team1 {
+  height: 300px;
+}
+.team-card-head {
+  height: 12vh;
+}
+.team-player-list {
+  display: flex;
+  flex-flow: column;
+  margin: 2px;
+}
+.player-strip {
+  display: flex;
+  margin: 10px;
+  border: #000 solid 3px;
+  border-radius: 6px;
+  box-shadow: 7px 7px 7px #000;
+}
+.strip-img {
+width: 100px;
+margin: 6px;
+border-radius: 12px;
+border: #000 solid 3px;
+box-shadow: 2px 2px #000;
+}
+.player-name {
+margin: 0%;
+
+}
+
+.accordian-header {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.accordian-button {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.team-card {
+  width: 100%;
+  height: 600px;
+  top: 150px;
+  background: #e0c88e;
+}
+
+.team-img {
+  height: 12vh;
+  border-radius: 24px;
+  margin-right: 5px;
+  float: left;
+  border: #000 solid 4px;
+  box-shadow: #000;
+
+}
+
+.team-card h2 {
+  font-family: courier;
+  color: #333;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15pt;
+}
+
+.team-card p {
+  font-family: courier;
+  color: #555;
+  font-size: 13px;
+}
+
+.team-card span {
+  font-family: courier;
+}
+
+.team-info {
+  width:100%;
+  margin: 0%;
+  height:150px;
+}
+.info-ul {
+  list-style: none;
+  font-size: medium;
+  height: 12vh;
+  margin: 0%;
+  padding: 0%;
+}
+
+.team-info h6 {
+  justify-content: left;
+  margin: 2px 0; 
+  padding: 0%;
+  font-size:small;
+}
+
+.roster-ul {
+  padding: 0 0 0 0;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0;
+  display: block;
+  border-top: #000 solid 2px;
+}
+
+.player-title {
+  border-bottom: #224C36 solid 2px;
+  height: 50px;
+}
+
+.remove-player {
+float: right;
+text-decoration: none;
+color: #333;
+font-size: 50px;
+margin-right: 2px;
+
+
+
+
+
+}
+.fa-2xl {
+  line-height: normal;
+}
+
+.wallet-actions {
+
+}
+.wallet-actions button{
+  width: 150px;
+  height: 50px;
+  margin: 4px;
+  vertical-align: bottom;
+}
+
+.team-wallet {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:none;
+  display: block;
+  width: 100%;
+}
+.team-wallet:hover {
+  overflow: visible;
+  overflow-wrap: break-word;
+}
+
+
+
+
+/* FANTASY LEAGUE */
+/* FANTASY LEAGUE */
+/* FANTASY LEAGUE */
+/* FANTASY LEAGUE */
+
+
+.fantasy-container {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+  inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+
+}
+
+h1.fantasy-header {
+  text-align: center;
+  margin-top: 13px;
+
+
+}
+
+.fantasy-info {
+  width: 60%;
+}
+
+.mint-button {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin: 0 auto;
+  width: 180px;
+  height: 60px;
+}
+
+.mint4free {
+  padding: 10px;
+  margin-bottom:-10px;
+}
+
+
+/* FANTASY LEADERBOARD */
+/* FANTASY LEADERBOARD */
+/* FANTASY LEADERBOARD */
+/* FANTASY LEADERBOARD */
+
+
+
+.content-info {
+
+  padding: 40px 0;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+
+}
+
+table {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dedede;
+  
+}
+
+table thead tr th {
+  padding: 16px;
+  border: 1px solid #dedede;
+  color: rgb(0, 0, 0)
+  
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+  background: #f9f9f9
+}
+
+table.result-point tr td.number {
+  width: 90px;
+  position: relative
+}
+
+.text-left {
+  text-align: left !important
+}
+
+
+table.result-point tr td .fa.fa-caret-up {
+  color: green
+}
+
+table.result-point tr td .fa {
+  font-size: 20px;
+  position: absolute;
+  right: 14px
+}
+
+table tr td {
+  padding: 6px 20px;
+  border: 1px solid #dedede
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+  inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+table tr td img {
+  max-width: 32px;
+  float: left;
+  margin-right: 11px;
+  margin-top: 1px;
+
+}
+
+
+
+
+/* FANTASY CARDS */
+
+
+
+
+
+
+
+body .stake-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 40px 0;
+
+}
+
+body .stake-container .stake-card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+
+}
+
+body .stake-container .stake-card:nth-child(1) .stake-box .stake-content a {
+  background: #2196f3;
+}
+
+body .stake-container .stake-card:nth-child(2) .stake-box .stake-content a {
+  background: #e91e63;
+}
+
+body .stake-container .stake-card:nth-child(3) .stake-box .stake-content a {
+  background: #23c186;
+}
+
+body .stake-container .stake-card .stake-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+
+
+body .stake-container .stake-card .stake-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body .stake-container .stake-card .stake-box .stake-content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .stake-container .stake-card .stake-box .stake-content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .stake-container .stake-card .stake-box .stake-content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .stake-container .stake-card .stake-box .stake-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.2s;
+}
+
+body .stake-container .stake-card .stake-box .stake-content a {
+  position: relative;
+  display: inline-block;
+  padding: 24px 70px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+body .stake-container .stake-card .stake-box .stake-content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+
+  /* When screen is large, do this. */
+  /* When screen is large, do this. */
+
+@media(min-width: 768px) {
+  .news-input {
+      width: 50%;
+  }
+  .player-img {
+    width: 20%;
+    border-right: #000 solid 6px;
+  }
+  .wager-button {
+    height: 50px;
+    width: 20vw;
+    align-self: flex-end;
+    margin-left: 10px;
+
+  }
+
+  .wm-box {
+    height: 120px;
+    align-content: end;
+  }
+ 
+
+
+  }
+
+
+  /* When screen is small, do this. */
+  /* When screen is small, do this. */
+
+  .team-card {
+    height: 670px;
+  }
+  
+  @media(max-width: 768px) {
+  .user-awards {
+    z-index: -1;
+  }
+
+  .subnav ul {
+    font-size: smaller;
+    gap: 10%;
+    padding: 10px;
+  }
+
+  .wm-box {
+    height: 170px;
+  }
+
+  .wager-button {
+    height: 50px;
+    align-self: flex-end;
+    
+  }
+  .match-info {
+    padding: 8px 0px 0px 8px;
+    align-items: flex-start;
+    margin: 3px 18px;
+  }
+  .team-record {
+    padding-right: 12px;
+    margin-right: 0%;
+    margin-bottom: 10px;
+
+  }
+  .team-name {
+    margin-right: 48px;
+  }
+.create-match {
+    width: 60vw;
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+.match-info h2 {
+  font-size: large;
+}
+.match-info h4 {
+  font-size: medium;
+}
+.match-info h5 {
+  font-size: smaller;
+}
+.match-info h3 {
+  font-size: medium;
+}
+.wager-seperator {
+  height: 9px;
+  }
+
+/* MY PROFILE */
+
+.profile-page {
+  margin: 10px;
+}
+.profile-settings .btn-lg{
+  width: 100vw;
+  padding-left: 0%;
+  border: #000 dashed 1px;
+}
+
+
+.awards {
+  width: 85vw;
+}
+.time-zone-selector {
+  font-size: small;
+  width:80vw;
+  justify-items: start;
+  margin: 2%;
+
+}
+.socials {
+  justify-content: flex-start;
+}
+.bi {
+
+}
+.profile-page .btn-lg {
+  width: 70vw;
+}
+.info-notif {
+  font-size: medium;
+}
+.notifications {
+  padding: 12px;
+}
+
+/* SHOP */
+.shop-header {
+height: 5%;
+align-items: center;
+margin-top: 5%;
+}
+.shop-content {
+justify-content: center;
+margin: 0%;
+}
+
+.shop-item {
+width: 48%;
+margin: 1%;
+
+}
+.shop-item img {
+width: 100%;
+
+}
+.item-info {
+height: 7vh;
+}
+
+
+.item-price {
+margin: 0%;
+padding: 0%;
+}
+.shop-solana {
+margin: 0%;
+padding: 0%;
+}
+
+}
